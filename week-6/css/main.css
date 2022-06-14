@@ -1,0 +1,22 @@
+body {
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h1 {
+    text-transform: uppercase;
+}
+
+p  {
+    font-size: 18px;
+    line-height: 1.4;
+}
+
+p:nth-child(2) {
+    font-weight: bold;
+    font-style: italic;
+}
+
+footer  {
+    background-color: #369;
+    color: #fff;
+}
