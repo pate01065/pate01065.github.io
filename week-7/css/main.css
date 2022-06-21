@@ -1,0 +1,14 @@
+* {
+    box-sizing: border-box;
+}
+
+.box {
+    color: #fff;
+    width: 500px;
+    background-color: #369;
+    padding: 10px;
+    border: 5px dashed red;
+    margin: 0 auto 0 auto; /* top right bottom left */
+    text-align: center;
+    box-sizing:  border-box;
+}
