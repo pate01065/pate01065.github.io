@@ -2,8 +2,7 @@
 .container {
     text-align: center;
     color: white;
-    font-size: 50px;
-}
+    font-size: 80px;
 
 /* Centered text */
 .container {
@@ -22,4 +21,8 @@ body {
 .site-title {
     color: white;
     background-image: url("images/lone-starfish-wide.jpg");
+}
+
+h2 {
+    font-size: xx-large;
 }
