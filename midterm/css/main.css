@@ -3,6 +3,8 @@
     text-align: center;
     color: white;
     font-size: 80px;
+    position: absolute;
+}
 
 /* Centered text */
 .container {
@@ -25,4 +27,16 @@ body {
 
 h2 {
     font-size: xx-large;
+    font-style: normal;
+}
+
+#lone-starfish {
+    float: left;
+    margin: 0 20px 0 0;
+    size: 500px;
+}
+
+h3 {
+    font-size: large;
+    font-style: normal;
 }
