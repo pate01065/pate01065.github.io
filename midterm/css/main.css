@@ -82,7 +82,8 @@ h4 {
 }
 
 /* style the contact-card */
-.label {
+form {
+    box-sizing: border-box;
     display: block;
     
 }
