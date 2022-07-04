@@ -1,8 +1,16 @@
+.box {
+    width: 80px;
+    height: 100px;
+    padding: 10px;
+    margin: 10px;
+    background-color: #aad4cf;
+    
+}    
 /* Container holding the image and the text */
 .container {
     text-align: center;
     color: white;
-    font-size: 80px;
+    font-size: 90px;
     position: absolute;
 }
 
@@ -12,6 +20,16 @@
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.btn {
+    border: 1px grey;
+    background-color: #b7e7e2;
+    color: black;
+    padding: 14px 38px 20px;
+    font-size: 40px;
+    cursor: pointer;
+    width: 33%;
 }
 
 body {
@@ -26,17 +44,46 @@ body {
 }
 
 h2 {
-    font-size: xx-large;
+    font-size: 45px;
     font-style: normal;
 }
 
+/*contain holding only text */
 #lone-starfish {
     float: left;
     margin: 0 20px 0 0;
-    size: 500px;
+}
+
+p{
+    font-size: 24px;
+    margin: 10px;
 }
 
 h3 {
-    font-size: large;
+    font-size: 40px;
     font-style: normal;
 }
+
+ul { 
+    list-style: square;
+}
+
+.facts {
+    position: absolute;
+    left: auto;
+    top: 1220px;
+    font-size: 30px;
+}
+
+h4 {
+    position: relative;
+    margin-top: 300px;
+    font-size: 40px;
+}
+
+/* style the contact-card */
+.label {
+    display: block;
+    
+}
+

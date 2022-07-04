@@ -11,6 +11,9 @@
     <header>
         <div class="container">Lone Starfish</div>
         <img src="images/lone-starfish-wide.jpg" alt="wide image" width="100%">
+       <button class="btn Home">Home</button>
+       <button class="btn Story">Story</button>
+       <button class="btn Contact">Contact</button>
         </header>
         <h2>Life of a Starfish</h2>
         <img src="images/lone-starfish.jpg" width="500px" height="500px" alt="main image of starfish" id="lone-starfish">
@@ -24,15 +27,14 @@
                 <li>Waryfish, "lionfish; longfin smelt; leopard danio dragonfish," Lost River sucker, mojarra.</li>
             </ul>
         </div>
-        <h3>Contact to learn more</h3>
-        <div class="contact-card">
-            <label for="name">Your Name</label>
-            <input type="text" id="name" name="fname">
-            <label for="email">Your Email</label>
-            <input type="email" id="email" name="email">
-            <label for="memo">Your Message</label>
-            <input type="memo" id="mesage" name="message">
-        </div>
+        <h4>Contact to learn more</h4>
+        <form action="contact-card" method="post"></form>
+        <form><label for="name">Your Name</label>
+            <input id="Name"></textarea></form>
+        <form> <label for="email">Your Email</label>
+            <textarea id="email"></textarea></form>
+        <form><label for="memo">Your Message</label>
+            <textarea id="Message"></textarea></form>
         <div class="review">
             <form>
                 <input type="radio" id="yes" name="would_you_like" value="yes">
