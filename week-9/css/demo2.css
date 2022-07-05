@@ -44,7 +44,7 @@ nav ul li {
 }
 
 .products {
-    background-color: lightsalmon;
+    background-color: lightgrey;
     padding: 1rem;
 }
 
@@ -62,4 +62,8 @@ footer {
     header nav {
         float: right;
     }
+}
+
+header nav li {
+    display: inline;
 }
