@@ -41,7 +41,7 @@ nav ul li {
 .wrapper {
     width: 90%;
     margin: 0 auto;
-}
+}   
 
 .products {
     background-color: lightgrey;
@@ -67,3 +67,17 @@ footer {
 header nav li {
     display: inline;
 }
+
+/* desktop width */
+@media screen and (min-width: 900px) {
+    .wrapper {
+        width: 900px;
+    }
+
+    .products .wrapper div {
+        float: left;
+        width: 33%;
+        padding: 1rem;
+    }
+}
+
