@@ -86,9 +86,28 @@ label {
     width: max-content;
 }
 
+h5 {
+    font-size: normal;
+}
+
+radio {
+    position: relative;
+
+}
+
 .box {
     width: 80px;
     height: 30px;
     position: relative;
 }
 
+.send-button {
+    padding-left: 32px 16px;
+    text-align: center;
+    display: inline-block;
+    font-size: 25px;
+}
+
+footer {
+    float: right;
+}
