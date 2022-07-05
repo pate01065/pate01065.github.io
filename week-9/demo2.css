@@ -20,8 +20,9 @@ body {
 }
 
 header {
-    background-color: lightseagreen;
+    background-color: black;
     text-align: center;
+    padding: 1rem;
 }
 
 header h1 {
@@ -30,4 +31,35 @@ header h1 {
 
 nav ul {
     list-style: none;
+    padding-left: 0;
+}
+
+nav ul li {
+    margin: 1rem;
+}
+
+.wrapper {
+    width: 90%;
+    margin: 0 auto;
+}
+
+.products {
+    background-color: lightsalmon;
+    padding: 1rem;
+}
+
+footer {
+    text-align: center;
+    font-size: 0.8rem;
+}
+
+/* tablet width */
+@media screen and (min-width: 600px) {
+    header h1 {
+        float: left;
+    }
+
+    header nav {
+        float: right;
+    }
 }
