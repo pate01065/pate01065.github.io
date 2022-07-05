@@ -71,7 +71,7 @@ ul {
 .facts {
     position: absolute;
     left: auto;
-    top: 1220px;
+    top: 1320px;
     font-size: 30px;
 }
 
@@ -81,9 +81,14 @@ h4 {
     font-size: 40px;
 }
 
-/* style the contact-card */
-form {
-    box-sizing: border-box;
+label {
     display: block;
-
+    width: max-content;
 }
+
+.box {
+    width: 80px;
+    height: 30px;
+    position: relative;
+}
+
