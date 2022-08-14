@@ -49,11 +49,6 @@ table {
 }
 
 /* mobile first approach in the style */
-@media only screen and (max-width: 1200px) {
-	body {
-		background-color: white
-	}
-
 	header {
     	background-color: #c78b07;
     	width: auto;
@@ -61,18 +56,3 @@ table {
 		padding: 50px;
 		margin: 0;
 	}
-
-    ul {
-		list-style-type: none;
-		margin: 0;
-		padding: 0;
-	}
-
-	li a {
-		display: block;
-		width: 60px;
-		background-color: #c78b07;
-	
-	}
-
-}
