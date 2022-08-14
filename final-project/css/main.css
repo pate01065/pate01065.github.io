@@ -1,58 +1,110 @@
-/* http://meyerweb.com/eric/tools/css/reset/ 
-   v2.0 | 20110126
-   License: none (public domain)
-*/
-
-html, body, div, span, applet, object, iframe,
-h1, h2, h3, h4, h5, h6, p, blockquote, pre,
-a, abbr, acronym, address, big, cite, code,
-del, dfn, em, img, ins, kbd, q, s, samp,
-small, strike, strong, sub, sup, tt, var,
-b, u, i, center,
-dl, dt, dd, ol, ul, li,
-fieldset, form, label, legend,
-table, caption, tbody, tfoot, thead, tr, th, td,
-article, aside, canvas, details, embed, 
-figure, figcaption, footer, header, hgroup, 
-menu, nav, output, ruby, section, summary,
-time, mark {
-	margin: 0;
-	padding: 0;
-	border: 0;
-	font-size: 100%;
-	font: inherit;
-	vertical-align: baseline;
+html{
+    font-family: 'Open Sans', sans-serif;
 }
-
-
-/* HTML5 display-role reset for older browsers */
-
-article, aside, details, figcaption, figure, 
-footer, header, hgroup, menu, nav, section {
-	display: block;
+.wrapper{
+    margin: 0 auto;
+    max-width: 1200px;
 }
-
-
-body {
-	line-height: 1;
+h1{
+    font-size: 4rem;
 }
-
-
-ul {
-	list-style: none;
+h2{
+    font-size: 18px;
 }
-
-
-table {
-	border-collapse: collapse;
-	border-spacing: 0;
+h3{
+	font-size: 18px;
 }
-
-/* mobile first approach in the style */
-	header {
-    	background-color: #c78b07;
-    	width: auto;
-    	border: 20px solid rgb(24, 24, 24);
-		padding: 50px;
-		margin: 0;
-	}
+h4{
+	font-size: 18px;
+}
+p{
+	font-size: 10px;
+}
+button{
+    color: #c78c06;
+    background-color: #222;
+    padding: 10px;
+}
+header{
+    background-color: black;
+}
+.menu div:nth-child(1){
+    background-color: #c78c06;
+}
+ul{
+    text-align: center;
+}
+ul li:nth-child(1){
+    background-color: #c78c06;
+}
+header form{
+    text-align: center;
+}
+.banner{
+    background-image: url(../images/main-banner.jpg);
+}
+.gray{
+    background-color: rgba(0, 0, 0, 0.5);
+    padding: 10px;
+}
+.aboutus img{
+    width: 100%;
+}
+.aboutus{
+    padding: 10px;
+    background-color:#c78c06 ;
+}
+.Services{
+    background-color: #c78c06;
+}
+.Services img{
+    width: 100%;
+}
+.ourservices{
+    display: flex;
+    flex-direction: column;
+    text-align: center;
+    gap: 10px;
+}
+.ourvision{
+    color: white;
+    background-image: url(../images/vision.jpg);
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.team{
+    margin: 10px auto;
+    background-color: #c78c06;
+    padding: 10px;
+}
+.team img{
+    width: 100%;
+}
+.contactus{
+    padding: 10px;
+}
+.contactus form input{
+    width: 100%;
+}
+form textarea{
+    width: 100%;
+}
+.ourschedule{
+    padding: 10px;
+}
+table{
+    width: 100%;
+}
+table, th, td {
+    border: 2px solid black; border-collapse: collapse;
+}
+.ourlocation{
+    padding: 20px;
+}
+iframe{
+    width: 100%;
+}
+footer{
+    background-color: #222 ;
+    color: #c78c06;
+}
