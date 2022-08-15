@@ -230,7 +230,7 @@ form textarea{
 }
 
 table{
-    width: 100%;
+    width: 50%;
 }
 
 table, th, td {
@@ -255,7 +255,7 @@ table, th, td {
 	margin-bottom: 20px;
 }
 
-#ourlocation .iframe {
+.iframe {
     width: 100%;
 }
 
@@ -264,7 +264,6 @@ footer {
     color: #c78c06;
 	padding: 20px;
 }
-
 
 @media screen and (min-width: 760px){
 	#ourteam .team:nth-child(2){
