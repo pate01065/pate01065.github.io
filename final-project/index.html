@@ -21,16 +21,18 @@
                 <ul>
                     <li><a href="#home">Home</a></li>
                     <li><a href="#Aboutus">About Us</a></li>
-                    <li><a href="#services">Servces</a></li>
-                    <li><a href="#team">Team</a></li>
-                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="#ourservices">Services</a></li>
+                    <li><a href="#ourteam">Team</a></li>
+                    <li><a href="#ourcontact">Contact</a></li>
                 </ul>
-            </nav>   
+            </nav>
+        </div>  
     <!--form contains the search bar-->
-        <form class="example" action="/action_page.php">
-            <input type="text" placeholder="search.." name="search2">
-            <button class="submmit"><i class="fa fa-search"></i></button>
-        </form>
+        <div class="wrapper search">
+            <form class="example" action="/action_page.php">
+                <input type="text" placeholder="search" name="search2">
+                <button class="submmit"><i class="fa fa-search"></i></button>
+            </form>
         </div>
     </header>
     <!--Main content with images and button-->
@@ -39,11 +41,13 @@
             <h1>Welcome to Three Star Media</h1>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Excepturi praesentium debitis cumque dolore quod exercitationem quae fugiat cupiditate ipsam ad corporis aut ab nobis nam, est ducimus? Sunt, sint perspiciatis!
             </p>
+        </div>
+        <div class="btn">
             <!--container contains the connect with us button-->
             <button class="btn connect with us">Connect with us</button>
         </div>  
     </div>
-    <div class="aboutus">
+    <div id="aboutus">
         <img src="./images/about-us.jpg" alt="">
         <div>
             <h1>About Us</h1>
@@ -54,46 +58,50 @@
         </div>
     </div>
     <!--under div class names tagged with the image and services-->
-    <div class="ourservices wrapper">
+    <div id="ourservices" class="wrapper">
         <h1>Our Services</h1>
-        <div class="Services">
-            <img src="images/digital.jpg" alt="mobile and laptop in image">
-            <h2>Digital Transformation</h2>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse ducimus corporis soluta ratione suscipit sapiente, amet doloremque id voluptatibus eos, temporibus, officiis voluptatem fuga! Est aperiam eum molestias pariatur illo.
-            </p>
-            <button class="btn Digital Plans">Digital Plans</button>
-        </div>
-        <div class="Services">
-            <img src="images/marketing.jpg" alt="data in laptop">
-            <h2>Marketing</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi non perferendis recusandae nulla commodi quisquam nesciunt reprehenderit, aspernatur cupiditate delectus dolorem quasi harum molestias perspiciatis dicta id maiores. Ratione, harum!
-            </p>
-            <button class="btn Marketing Plans">Marketing Plans</button>
-        </div>
-        <div class="Services">
-            <img src="images/video.jpg" alt="mobile phone in hand">
-            <h2>Video Production</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi non perferendis recusandae nulla commodi quisquam nesciunt reprehenderit, aspernatur cupiditate delectus dolorem quasi harum molestias perspiciatis dicta id maiores. Ratione, harum!
-            </p>
-            <button class="btn Video Plans">Video Plans</button>
-        </div>
-        <div class="Services">
-            <img src="images/web.jpg" alt="mobile phone on notebook">
-            <h2>Web Development</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi non perferendis recusandae nulla commodi quisquam nesciunt reprehenderit, aspernatur cupiditate delectus dolorem quasi harum molestias perspiciatis dicta id maiores. Ratione, harum!
-            </p>
-            <button class="btn Web Plans">Web Plans</button>
-        </div>
-        <div class="Services">
-            <img src="images/print.jpg" alt="printer booths on the road">
-            <h2>Print</h2>
-            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi non perferendis recusandae nulla commodi quisquam nesciunt reprehenderit, aspernatur cupiditate delectus dolorem quasi harum molestias perspiciatis dicta id maiores. Ratione, harum!
-            </p>
-            <button class="btn Print Plans">Print Plans</button>
+        <div class="servicegrid">
+            <div class="Services">
+                <img src="images/digital.jpg" alt="mobile and laptop in image">
+                <h2>Digital Transformation</h2>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Esse ducimus corporis soluta ratione suscipit sapiente, amet doloremque id voluptatibus eos, temporibus, officiis voluptatem fuga! Est aperiam eum molestias pariatur illo.
+                </p>
+                <div class="ourservicesbutton" class="wrapper">
+                    <button class="btn Digital Plans">Digital Plans</button>
+                </div>
+            </div>
+            <div class="Services">
+                <img src="images/marketing.jpg" alt="data in laptop">
+                <h2>Marketing</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi non perferendis recusandae nulla commodi quisquam nesciunt reprehenderit, aspernatur cupiditate delectus dolorem quasi harum molestias perspiciatis dicta id maiores. Ratione, harum!
+                </p>
+                <button class="btn Marketing Plans">Marketing Plans</button>
+            </div>
+            <div class="Services">
+                <img src="images/video.jpg" alt="mobile phone in hand">
+                <h2>Video Production</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi non perferendis recusandae nulla commodi quisquam nesciunt reprehenderit, aspernatur cupiditate delectus dolorem quasi harum molestias perspiciatis dicta id maiores. Ratione, harum!
+                </p>
+                <button class="btn Video Plans">Video Plans</button>
+            </div>
+            <div class="Services">
+                <img src="images/web.jpg" alt="mobile phone on notebook">
+                <h2>Web Development</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi non perferendis recusandae nulla commodi quisquam nesciunt reprehenderit, aspernatur cupiditate delectus dolorem quasi harum molestias perspiciatis dicta id maiores. Ratione, harum!
+                </p>
+                <button class="btn Web Plans">Web Plans</button>
+            </div>
+            <div class="Services">
+                <img src="images/print.jpg" alt="printer booths on the road">
+                <h2>Print</h2>
+                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi non perferendis recusandae nulla commodi quisquam nesciunt reprehenderit, aspernatur cupiditate delectus dolorem quasi harum molestias perspiciatis dicta id maiores. Ratione, harum!
+                </p>
+                <button class="btn Print Plans">Print Plans</button>
+            </div>
         </div>
     </div>
     <!--under div image and text with button-->
-    <div class="ourvision">
+    <div id="ourvision">
         <div class="wrapper">
             <h2>Our Vision</h2>
              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Nisi non perferendis recusandae nulla commodi quisquam nesciunt reprehenderit, aspernatur cupiditate delectus dolorem quasi harum molestias perspiciatis dicta id maiores. Ratione, harum!
@@ -102,25 +110,27 @@
         </div>
     </div>
     <!--under div class team tagged with tem memmbers image and the name with the position-->
-    <div class="ourteam wrapper">
+    <div id="ourteam" class="wrapper">
         <h1>Our Team</h1>
         <div class="team">
             <img src="images/john.jpg" alt="wide image">
-            <h2>John Doe</h2>
-            <h4>CEO and Co-owner</h4>
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta deserunt nobis culpa accusamus quos repudiandae, quibusdam, necessitatibus pariatur eaque, eos mollitia at. Laborum voluptatibus, aut nulla quis libero incidunt cupiditate.
-            </p>
+            <div>
+                <h2>John Doe</h2>
+                <h4>CEO and Co-owner</h4><hr>
+                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Soluta deserunt nobis culpa accusamus quos repudiandae, quibusdam, necessitatibus pariatur eaque, eos mollitia at. Laborum voluptatibus, aut nulla quis libero incidunt cupiditate.</p>
+            </div>
         </div>
         <div class="team">
             <img src="images/bob.jpg" alt="wide image">
-            <h2>Bob Rite</h2>
-            <h4>CFO and Co-owner</h4>
-            <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem cum odit animi porro sunt at aspernatur ut, ducimus dignissimos velit officiis qui non quam voluptate culpa voluptatum, id nostrum ab.
-            </p>
+            <div>
+                <h2>Bob Rite</h2>
+                <h4>CFO and Co-owner</h4><hr>
+                <p>Lorem ipsum dolor sit amet consectetur, adipisicing elit. Voluptatem cum odit animi porro sunt at aspernatur ut, ducimus dignissimos velit officiis qui non quam voluptate culpa voluptatum, id nostrum ab.</p>
+            </div>
         </div>
     </div>
     <!--contact form tag containes details and message with send button-->
-    <div class="contactus wrapper">
+    <div id="ourcontacts"class="wrapper">
         <h1>Contact Us</h1>
         <h2>Send us a message</h2>
         <form action="thanks.html" method="post">
