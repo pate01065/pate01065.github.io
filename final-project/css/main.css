@@ -19,24 +19,31 @@ header{
 	font-size: 1rem;
 	color: white;
 }
-.form class button{
+.form button{
 	width: 100%;
+	padding: 10px;
+	margin-bottom: 10px;
 }
 .menu div:nth-child(1){
     background-color: #c78c06;
+	width: 100%;
+	padding: 0;
 }
+
 ul{
     text-align: center;
+	font-size: 2rem;
 }
+
 ul li:nth-child(1){
     background-color: #c78c06;
 }
-ul li:nth-child(1){
-    color: #222;
-}
 
-header form{
+.wrapper form{
     text-align: center;
+	width: 100%;
+	padding: 10px;
+	color: #c78c06;
 }
 
 .banner{
@@ -51,14 +58,14 @@ header form{
 }
 
 .banner h1{
-	font-size: 4rem;
+	font-size: 7rem;
 	font-weight: 700;
 	color: white;
 	padding: 30px;
 }
 
 .banner p{
-	font-size: 1rem;
+	font-size: 1.5rem;
 	color: white;
 	padding: 30px;
 }
@@ -67,38 +74,36 @@ header form{
 	color: black;
 	background-color: #c78c06;
 	border: none;
+	width: 35%;
 	margin-top: 30px;
-	margin-left: 50px;
-	margin-bottom: 30px;
-	padding: 20px;
+	margin-left: 55px;
+	margin-bottom: 20px;
+	font-size: 1rem;
 }
 
 #aboutus img{
-    width: 50%;
-	margin: 30px;
+	width: 100%;
 }
 
 #aboutus {
-	background-color: #f7e0ad;
-	padding: 20px;
+	background-color: #ffe6ac;
+	padding: 100px;
 }
 
 #aboutus h1{
 	font-size: 3rem;
 	font-weight: 700;
-	padding: 10px;
-	margin: 10px auto;
+	margin-top: 30px;
 }
 
 #aboutus p{
-	display: flex;
-    text-align: left;
-	font-size: 1rem;
-	padding: 10px;
+	font-size: 2rem;
+	margin-top: 30px;
+
 }
 
 .Services{
-    background-color: #f7e0ad;
+    background-color: #ffe6ac;
 }
 
 .Services img{
@@ -110,48 +115,62 @@ header form{
     flex-direction: column;
     text-align: left;
     gap: 10px;
+	background-color: white;
+	column-gap: 20px;
+	row-gap: 20px;
 }
 
 #ourservices h1{
 	font-size: 3rem;
 	font-weight: 700;
-	padding: 10px; 
+	margin-top: 30px;
 }
 
 #ourservices h2{
 	font-size: 2rem;
 	font-weight: 700;
-	padding: 10px; 
+	padding: 20px; 
 }
 
 #ourservices p{
 	font-size: 1rem;
-	padding: 10px; 
+	padding: 20px; 
+}
+
+#ourservices .btn{
+	padding: 20px; 
+	color: #222;
+	margin-left: 20px;
 }
 
 #ourvision{
 	background-image: url(../images/vision.jpg);
-    background-size: cover;
-    background-repeat: no-repeat;
+	padding: 100px;
 }
 
 #ourvision h2{
-	font-size: 2rem;
+	font-size: 3rem;
 	color: white;
-	font-weight: 600;
-	padding: 10px;
+	font-weight: 700;
+	padding: 0;
 }
 
 #ourvision p{
-	background-image: url(../images/vision.jpg);
 	font-size: 1rem;
 	color: white;
-	padding: 10px;
+	padding: 0;
+	margin-top: 20px;
+}
+
+#ourvision .btn{
+	padding: 20px; 
+	color: #222;
+	margin-left: 0;		
 }
 
 .team{
-    background-color: #f7e0ad;
-    padding: 10px;
+    background-color: #ffe6ac;
+    padding: 0;
 }
 
 .team img{
@@ -159,34 +178,39 @@ header form{
 }
 
 #ourteam h1{
-    font-size: 3rem;
+    font-size: 4rem;
 	font-weight: 700;
 	padding: 10px; 
+	margin-top: 20px;
+	margin-bottom: 20px;
 }
 
 #ourteam h2{
     font-size: 2rem;
 	font-weight: 700;
 	padding: 10px; 
+	margin-top: 20px;
+	margin-left: 20px;
 }
 
 #ourteam h4{
     font-size: 1rem;
 	font-weight: 700;
 	padding: 10px; 
+	margin-left: 20px;
 }
 
 hr{
 	display: block;
 	width: 95%;
 	border-color: #c78c06;
-	padding: auto;
+	padding: 0;
 }
 
 #ourteam p{
     font-size: 1rem;
 	padding: 10px;
-	padding-top: 30px; 
+	margin-left: 20px;
 }
 
 #ourcontacts h1{
@@ -203,13 +227,11 @@ hr{
 	margin-bottom: 20px;
 }
 
-#ourcontacts .fullname{
+.ourcontacts {
 	padding: 10px;
+	color: #222;
 }
 
-#ourcontacts{
-    padding: 10px;
-}
 
 #ourcontacts form input{
     width: 100%;
@@ -230,7 +252,7 @@ form textarea{
 }
 
 table{
-    width: 50%;
+    width: 100%;
 }
 
 table, th, td {
@@ -239,13 +261,12 @@ table, th, td {
 }
 
 .ourschedule th{
-    background-color: #f5cf9e;
+    background-color: #ffe6ac;
 	padding: 20px;
 }
 
 .ourlocation{
 	padding: 20px;
-	width: 100%;
 }
 
 .ourlocation h2{
@@ -257,6 +278,7 @@ table, th, td {
 
 .iframe {
     width: 100%;
+	padding: 100px;
 }
 
 footer {
@@ -264,6 +286,7 @@ footer {
     color: #c78c06;
 	padding: 20px;
 }
+
 
 @media screen and (min-width: 760px){
 	#ourteam .team:nth-child(2){
